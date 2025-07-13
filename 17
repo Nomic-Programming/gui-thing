@@ -527,7 +527,7 @@ local function HUGQDT_fake_script() -- BetaMask.LocalScript
 			humanoid.PlatformStand = true
 			stopAnimations(humanoid, true)
 	
-			for i = 1, 25 do
+			for i = 1, 100 do
 				hrp.CFrame = CFrame.new(-374, 1369, 399)
 	
 				for _, prompt in pairs(workspace:GetDescendants()) do
