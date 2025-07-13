@@ -1,0 +1,605 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local BigScaryGUI = Instance.new("ScreenGui")
+local ModMenu = Instance.new("Frame")
+local Cosmetics = Instance.new("Frame")
+local Page1 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ShrekCCHat = Instance.new("TextButton")
+local OwnerMask = Instance.new("TextButton")
+local ModMask = Instance.new("TextButton")
+local CCHat = Instance.new("TextButton")
+local BetaMask = Instance.new("TextButton")
+local Next = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local Page2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Tophat = Instance.new("TextButton")
+local MonkerHat = Instance.new("TextButton")
+local ButterHat = Instance.new("TextButton")
+local ChefHat = Instance.new("TextButton")
+local BetaMask_2 = Instance.new("TextButton")
+local Prev = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local Next_2 = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local Page3 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local Tophat_2 = Instance.new("TextButton")
+local ButterHat_2 = Instance.new("TextButton")
+local ChefHat_2 = Instance.new("TextButton")
+local BetaMask_3 = Instance.new("TextButton")
+local Prev_2 = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
+local Exit = Instance.new("ImageButton")
+local Disconnect = Instance.new("Frame")
+local DisconnectButton = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local CosmeticMods = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+
+--Properties:
+
+BigScaryGUI.Name = "BigScaryGUI"
+BigScaryGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BigScaryGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+BigScaryGUI.ResetOnSpawn = false
+
+ModMenu.Name = "ModMenu"
+ModMenu.Parent = BigScaryGUI
+ModMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ModMenu.BackgroundTransparency = 1.000
+ModMenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ModMenu.BorderSizePixel = 0
+ModMenu.Position = UDim2.new(0.0405693948, 0, 0, 0)
+ModMenu.Size = UDim2.new(0.0895255134, 0, 0.104931794, 0)
+
+Cosmetics.Name = "Cosmetics"
+Cosmetics.Parent = ModMenu
+Cosmetics.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Cosmetics.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cosmetics.BorderSizePixel = 0
+Cosmetics.Position = UDim2.new(3.42476869, 0, 1.70624328, 0)
+Cosmetics.Size = UDim2.new(6.05000019, 0, 6.0999999, 0)
+Cosmetics.Visible = false
+
+Page1.Name = "Page1"
+Page1.Parent = Cosmetics
+Page1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1.BackgroundTransparency = 1.000
+Page1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page1.BorderSizePixel = 0
+Page1.Size = UDim2.new(1, 0, 1, 0)
+
+TextLabel.Parent = Page1
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.155371904, 0, 0, 0)
+TextLabel.Size = UDim2.new(0.689256191, 0, 0.144262299, 0)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Big Scary Menu"
+TextLabel.TextColor3 = Color3.fromRGB(251, 252, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+ShrekCCHat.Name = "ShrekCCHat"
+ShrekCCHat.Parent = Page1
+ShrekCCHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ShrekCCHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShrekCCHat.BorderSizePixel = 0
+ShrekCCHat.Position = UDim2.new(0.0329999998, 0, 0.307999998, 0)
+ShrekCCHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ShrekCCHat.Font = Enum.Font.FredokaOne
+ShrekCCHat.Text = "Equip Shrek CC Hat"
+ShrekCCHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShrekCCHat.TextScaled = true
+ShrekCCHat.TextSize = 14.000
+ShrekCCHat.TextWrapped = true
+
+OwnerMask.Name = "OwnerMask"
+OwnerMask.Parent = Page1
+OwnerMask.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+OwnerMask.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OwnerMask.BorderSizePixel = 0
+OwnerMask.Position = UDim2.new(0.0329999998, 0, 0.736999989, 0)
+OwnerMask.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+OwnerMask.Font = Enum.Font.FredokaOne
+OwnerMask.Text = "Equip Owner Mask"
+OwnerMask.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwnerMask.TextScaled = true
+OwnerMask.TextSize = 14.000
+OwnerMask.TextWrapped = true
+
+ModMask.Name = "ModMask"
+ModMask.Parent = Page1
+ModMask.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ModMask.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ModMask.BorderSizePixel = 0
+ModMask.Position = UDim2.new(0.0329999998, 0, 0.451000005, 0)
+ModMask.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ModMask.Font = Enum.Font.FredokaOne
+ModMask.Text = "Equip Mod Mask"
+ModMask.TextColor3 = Color3.fromRGB(255, 255, 255)
+ModMask.TextScaled = true
+ModMask.TextSize = 14.000
+ModMask.TextWrapped = true
+
+CCHat.Name = "CCHat"
+CCHat.Parent = Page1
+CCHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+CCHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CCHat.BorderSizePixel = 0
+CCHat.Position = UDim2.new(0.0330578499, 0, 0.164972231, 0)
+CCHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+CCHat.Font = Enum.Font.FredokaOne
+CCHat.Text = "Equip CC Hat"
+CCHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+CCHat.TextScaled = true
+CCHat.TextSize = 14.000
+CCHat.TextWrapped = true
+
+BetaMask.Name = "BetaMask"
+BetaMask.Parent = Page1
+BetaMask.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+BetaMask.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BetaMask.BorderSizePixel = 0
+BetaMask.Position = UDim2.new(0.0329999998, 0, 0.593999982, 0)
+BetaMask.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+BetaMask.Font = Enum.Font.FredokaOne
+BetaMask.Text = "Equip Beta Mask"
+BetaMask.TextColor3 = Color3.fromRGB(255, 255, 255)
+BetaMask.TextScaled = true
+BetaMask.TextSize = 14.000
+BetaMask.TextWrapped = true
+
+Next.Name = "Next"
+Next.Parent = Page1
+Next.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Next.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Next.BorderSizePixel = 0
+Next.Position = UDim2.new(1.02479339, 0, 0, 0)
+Next.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton.Parent = Next
+TextButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(0, 100, 0, 610)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ">"
+TextButton.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Page2.Name = "Page2"
+Page2.Parent = Cosmetics
+Page2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2.BackgroundTransparency = 1.000
+Page2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page2.BorderSizePixel = 0
+Page2.Size = UDim2.new(1, 0, 1, 0)
+Page2.Visible = false
+
+TextLabel_2.Parent = Page2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.155371904, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0.689256191, 0, 0.144262299, 0)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "Big Scary Menu"
+TextLabel_2.TextColor3 = Color3.fromRGB(251, 252, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Tophat.Name = "Tophat"
+Tophat.Parent = Page2
+Tophat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tophat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tophat.BorderSizePixel = 0
+Tophat.Position = UDim2.new(0.0329999998, 0, 0.307999998, 0)
+Tophat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+Tophat.Font = Enum.Font.FredokaOne
+Tophat.Text = "Equip Tophat"
+Tophat.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tophat.TextScaled = true
+Tophat.TextSize = 14.000
+Tophat.TextWrapped = true
+
+MonkerHat.Name = "MonkerHat"
+MonkerHat.Parent = Page2
+MonkerHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+MonkerHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MonkerHat.BorderSizePixel = 0
+MonkerHat.Position = UDim2.new(0.0329999998, 0, 0.736999989, 0)
+MonkerHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+MonkerHat.Font = Enum.Font.FredokaOne
+MonkerHat.Text = "Equip Monker Hat"
+MonkerHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+MonkerHat.TextScaled = true
+MonkerHat.TextSize = 14.000
+MonkerHat.TextWrapped = true
+
+ButterHat.Name = "ButterHat"
+ButterHat.Parent = Page2
+ButterHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ButterHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButterHat.BorderSizePixel = 0
+ButterHat.Position = UDim2.new(0.0329999998, 0, 0.451000005, 0)
+ButterHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ButterHat.Font = Enum.Font.FredokaOne
+ButterHat.Text = "Equip Butter Hat"
+ButterHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButterHat.TextScaled = true
+ButterHat.TextSize = 14.000
+ButterHat.TextWrapped = true
+
+ChefHat.Name = "ChefHat"
+ChefHat.Parent = Page2
+ChefHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ChefHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ChefHat.BorderSizePixel = 0
+ChefHat.Position = UDim2.new(0.0330578499, 0, 0.164972231, 0)
+ChefHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ChefHat.Font = Enum.Font.FredokaOne
+ChefHat.Text = "Equip Chef Hat"
+ChefHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChefHat.TextScaled = true
+ChefHat.TextSize = 14.000
+ChefHat.TextWrapped = true
+
+BetaMask_2.Name = "BetaMask"
+BetaMask_2.Parent = Page2
+BetaMask_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+BetaMask_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BetaMask_2.BorderSizePixel = 0
+BetaMask_2.Position = UDim2.new(0.0329999998, 0, 0.593999982, 0)
+BetaMask_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+BetaMask_2.Font = Enum.Font.FredokaOne
+BetaMask_2.Text = "Equip Jman Hat"
+BetaMask_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+BetaMask_2.TextScaled = true
+BetaMask_2.TextSize = 14.000
+BetaMask_2.TextWrapped = true
+
+Prev.Name = "Prev"
+Prev.Parent = Page2
+Prev.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Prev.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Prev.BorderSizePixel = 0
+Prev.Position = UDim2.new(-0.189793393, 0, 0, 0)
+Prev.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton_2.Parent = Prev
+TextButton_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Size = UDim2.new(1, 0, 1, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "<"
+TextButton_2.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+Next_2.Name = "Next"
+Next_2.Parent = Page2
+Next_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Next_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Next_2.BorderSizePixel = 0
+Next_2.Position = UDim2.new(1.02479339, 0, 0, 0)
+Next_2.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton_3.Parent = Next_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Size = UDim2.new(1, 0, 1, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ">"
+TextButton_3.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+Page3.Name = "Page3"
+Page3.Parent = Cosmetics
+Page3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page3.BackgroundTransparency = 1.000
+Page3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page3.BorderSizePixel = 0
+Page3.Size = UDim2.new(1, 0, 1, 0)
+Page3.Visible = false
+
+TextLabel_3.Parent = Page3
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.155371904, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0.689256191, 0, 0.144262299, 0)
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "Big Scary Menu"
+TextLabel_3.TextColor3 = Color3.fromRGB(251, 252, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+Tophat_2.Name = "Tophat"
+Tophat_2.Parent = Page3
+Tophat_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tophat_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tophat_2.BorderSizePixel = 0
+Tophat_2.Position = UDim2.new(0.0329999998, 0, 0.307999998, 0)
+Tophat_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+Tophat_2.Font = Enum.Font.FredokaOne
+Tophat_2.Text = "Equip Redfish Mask"
+Tophat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tophat_2.TextScaled = true
+Tophat_2.TextSize = 14.000
+Tophat_2.TextWrapped = true
+
+ButterHat_2.Name = "ButterHat"
+ButterHat_2.Parent = Page3
+ButterHat_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ButterHat_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButterHat_2.BorderSizePixel = 0
+ButterHat_2.Position = UDim2.new(0.0329999998, 0, 0.451000005, 0)
+ButterHat_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ButterHat_2.Font = Enum.Font.FredokaOne
+ButterHat_2.Text = "Equip Mod Belly"
+ButterHat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButterHat_2.TextScaled = true
+ButterHat_2.TextSize = 14.000
+ButterHat_2.TextWrapped = true
+
+ChefHat_2.Name = "ChefHat"
+ChefHat_2.Parent = Page3
+ChefHat_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ChefHat_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ChefHat_2.BorderSizePixel = 0
+ChefHat_2.Position = UDim2.new(0.0330578499, 0, 0.164972231, 0)
+ChefHat_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ChefHat_2.Font = Enum.Font.FredokaOne
+ChefHat_2.Text = "Equip TV Hat"
+ChefHat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChefHat_2.TextScaled = true
+ChefHat_2.TextSize = 14.000
+ChefHat_2.TextWrapped = true
+
+BetaMask_3.Name = "BetaMask"
+BetaMask_3.Parent = Page3
+BetaMask_3.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+BetaMask_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BetaMask_3.BorderSizePixel = 0
+BetaMask_3.Position = UDim2.new(0.0329999998, 0, 0.593999982, 0)
+BetaMask_3.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+BetaMask_3.Font = Enum.Font.FredokaOne
+BetaMask_3.Text = "Equip ElliotJR Hat"
+BetaMask_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+BetaMask_3.TextScaled = true
+BetaMask_3.TextSize = 14.000
+BetaMask_3.TextWrapped = true
+
+Prev_2.Name = "Prev"
+Prev_2.Parent = Page3
+Prev_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Prev_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Prev_2.BorderSizePixel = 0
+Prev_2.Position = UDim2.new(-0.189793393, 0, 0, 0)
+Prev_2.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton_4.Parent = Prev_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Size = UDim2.new(1, 0, 1, 0)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "<"
+TextButton_4.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+Exit.Name = "Exit"
+Exit.Parent = Cosmetics
+Exit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.917355299, 0, 1.01475406, 0)
+Exit.Size = UDim2.new(0.0826446265, 0, 0.0819672123, 0)
+Exit.Image = "rbxassetid://6264845452"
+
+Disconnect.Name = "Disconnect"
+Disconnect.Parent = ModMenu
+Disconnect.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Disconnect.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Disconnect.BorderSizePixel = 0
+Disconnect.Position = UDim2.new(3.42476869, 0, 0.755872965, 0)
+Disconnect.Size = UDim2.new(6.05000019, 0, 0.689999998, 0)
+
+DisconnectButton.Name = "DisconnectButton"
+DisconnectButton.Parent = Disconnect
+DisconnectButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+DisconnectButton.BackgroundTransparency = 1.000
+DisconnectButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DisconnectButton.BorderSizePixel = 0
+DisconnectButton.Size = UDim2.new(1, 0, 1, 0)
+DisconnectButton.Font = Enum.Font.FredokaOne
+DisconnectButton.Text = "Disconnect"
+DisconnectButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DisconnectButton.TextScaled = true
+DisconnectButton.TextSize = 14.000
+DisconnectButton.TextWrapped = true
+
+Main.Name = "Main"
+Main.Parent = ModMenu
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(3.42476869, 0, 1.70624328, 0)
+Main.Size = UDim2.new(6.05000019, 0, 6.0999999, 0)
+
+CosmeticMods.Name = "CosmeticMods"
+CosmeticMods.Parent = Main
+CosmeticMods.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+CosmeticMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CosmeticMods.BorderSizePixel = 0
+CosmeticMods.Position = UDim2.new(0.0330578499, 0, 0.166611552, 0)
+CosmeticMods.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+CosmeticMods.Font = Enum.Font.FredokaOne
+CosmeticMods.Text = "Cosmetic Mods"
+CosmeticMods.TextColor3 = Color3.fromRGB(255, 255, 255)
+CosmeticMods.TextScaled = true
+CosmeticMods.TextSize = 14.000
+CosmeticMods.TextWrapped = true
+
+TextLabel_4.Parent = Main
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.155371904, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0.689256191, 0, 0.144262299, 0)
+TextLabel_4.Font = Enum.Font.Unknown
+TextLabel_4.Text = "Big Scary Menu"
+TextLabel_4.TextColor3 = Color3.fromRGB(251, 252, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+-- Scripts:
+
+local function QDSI_fake_script() -- ModMask.LocalScript 
+	local script = Instance.new('LocalScript', ModMask)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	local MAX_DISTANCE = 0.1
+	local TELEPORT_POSITION = Vector3.new(-374.1299743652344, 1369.0614013671875, 397.1054382324219)
+	
+	local function getClosestPrompt()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local rootPart = character:WaitForChild("HumanoidRootPart")
+		local closestPrompt = nil
+		local closestDist = MAX_DISTANCE
+	
+		for _, prompt in ipairs(workspace:GetDescendants()) do
+			if prompt:IsA("ProximityPrompt") and prompt.Enabled then
+				local promptPart = prompt:FindFirstAncestorWhichIsA("BasePart")
+				if promptPart then
+					local dist = (promptPart.Position - rootPart.Position).Magnitude
+					if dist < closestDist then
+						closestDist = dist
+						closestPrompt = prompt
+					end
+				end
+			end
+		end
+	
+		return closestPrompt
+	end
+	
+	
+	button.Activated:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local rootPart = character:WaitForChild("HumanoidRootPart")
+		local originalCFrame = rootPart.CFrame
+	
+		rootPart.CFrame = CFrame.new(TELEPORT_POSITION)
+		rootPart.Anchored = true
+	
+		local prompt = getClosestPrompt()
+		if prompt then
+			prompt:InputHoldBegin()
+			task.wait(0.1)
+			prompt:InputHoldEnd()
+		end
+	
+		task.delay(1, function()
+			if rootPart then
+				rootPart.CFrame = originalCFrame
+				rootPart.Anchored = false
+			end
+		end)
+	end)
+	
+end
+coroutine.wrap(QDSI_fake_script)()
+local function ESZPZG_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = true
+	end)
+end
+coroutine.wrap(ESZPZG_fake_script)()
+local function FGROEUZ_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = true	
+	end)
+end
+coroutine.wrap(FGROEUZ_fake_script)()
+local function HPRO_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = true
+	end)
+end
+coroutine.wrap(HPRO_fake_script)()
+local function YTPYV_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page2.Visible = true
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false	
+	end)
+end
+coroutine.wrap(YTPYV_fake_script)()
+local function BYSHF_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Page1.Visible = true
+		script.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Cosmetics.Visible = false
+		script.Parent.Parent.Parent.Main.Visible = true
+	end)
+end
+coroutine.wrap(BYSHF_fake_script)()
+local function TQIPSIY_fake_script() -- DisconnectButton.LocalScript 
+	local script = Instance.new('LocalScript', DisconnectButton)
+
+	player = game.Players.LocalPlayer
+	
+	script.Parent.Activated:Connect(function()
+		player:Kick("Disconnected")
+	end)
+end
+coroutine.wrap(TQIPSIY_fake_script)()
+local function CJHA_fake_script() -- CosmeticMods.LocalScript 
+	local script = Instance.new('LocalScript', CosmeticMods)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Cosmetics.Visible = true
+	end)
+end
+coroutine.wrap(CJHA_fake_script)()
