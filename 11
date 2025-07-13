@@ -1,0 +1,100 @@
+local player = game.Players.LocalPlayer
+local RANGE = 10
+
+local function setAnchored(character, anchored)
+    for _, part in pairs(character:GetChildren()) do
+        if part:IsA("BasePart") then
+            part.Anchored = anchored
+        end
+    end
+end
+
+local function stopAnimations(humanoid, stop)
+    for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+        if stop then
+            track:Stop()
+        else
+            track:Play()
+        end
+    end
+end
+
+local function disableCollisionTemporarily(character)
+    local originalStates = {}
+
+    for _, descendant in pairs(character:GetDescendants()) do
+        if descendant:IsA("BasePart") then
+            originalStates[descendant] = descendant.CanCollide
+            descendant.CanCollide = false
+        end
+    end
+
+    return originalStates
+end
+
+local function restoreCollisions(states)
+    for part, state in pairs(states) do
+        if part and part.Parent then
+            part.CanCollide = state
+        end
+    end
+end
+
+local function setupButton(scriptParent, character)
+    local hrp = character:WaitForChild("HumanoidRootPart")
+    local humanoid = character:WaitForChild("Humanoid")
+
+    scriptParent.Activated:Connect(function()
+        local originalCFrame = hrp.CFrame
+
+        local originalCollisions = disableCollisionTemporarily(character)
+
+        humanoid.PlatformStand = true
+        stopAnimations(humanoid, true)
+
+        hrp.Anchored = false
+        hrp.CFrame = CFrame.new(-374.1299743652344, 1369.0614013671875, 397.1054382324219)
+        task.wait(0.1)
+
+        setAnchored(character, true)
+        task.wait(0.1)
+
+        for _, prompt in pairs(workspace:GetDescendants()) do
+            if prompt:IsA("ProximityPrompt") then
+                local promptParent = prompt.Parent
+                if promptParent and promptParent:IsA("BasePart") then
+                    local dist = (hrp.Position - promptParent.Position).Magnitude
+                    if dist <= RANGE and prompt.Enabled then
+                        if prompt.HoldDuration > 0 then
+                            prompt:InputHoldBegin()
+                            task.wait(prompt.HoldDuration)
+                            prompt:InputHoldEnd()
+                        else
+                            prompt:InputHoldBegin()
+                            prompt:InputHoldEnd()
+                        end
+                    end
+                end
+            end
+        end
+
+        task.wait(1)  -- keep collisions disabled during this wait
+
+        restoreCollisions(originalCollisions)
+        setAnchored(character, false)
+
+        humanoid.PlatformStand = false
+        stopAnimations(humanoid, false)
+
+        hrp.CFrame = originalCFrame
+    end)
+end
+
+if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+    setupButton(script.Parent, player.Character)
+else
+    player.CharacterAdded:Connect(function(char)
+        char:WaitForChild("HumanoidRootPart")
+        setupButton(script.Parent, char)
+    end)
+end
