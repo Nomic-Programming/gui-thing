@@ -483,7 +483,7 @@ local function LEDBBD_fake_script() -- BetaMask.LocalScript
 	local script = Instance.new('LocalScript', BetaMask)
 
 	local player = game.Players.LocalPlayer
-	local RANGE = 10
+	local RANGE = 100
 	
 	local function setAnchored(character, anchored)
 		for _, part in pairs(character:GetChildren()) do
