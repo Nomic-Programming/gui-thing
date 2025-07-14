@@ -1,0 +1,3076 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local BigScaryGUI = Instance.new("ScreenGui")
+local ModMenu = Instance.new("Frame")
+local Cosmetics = Instance.new("Frame")
+local Page1 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ShrekCCHat = Instance.new("TextButton")
+local OwnerMask = Instance.new("TextButton")
+local ModMask = Instance.new("TextButton")
+local CCHat = Instance.new("TextButton")
+local BetaMask = Instance.new("TextButton")
+local Next = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local Page2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Tophat = Instance.new("TextButton")
+local MonkerHat = Instance.new("TextButton")
+local ButterHat = Instance.new("TextButton")
+local ChefHat = Instance.new("TextButton")
+local JmanSet = Instance.new("TextButton")
+local Prev = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local Next_2 = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local Page3 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local RedfishMask = Instance.new("TextButton")
+local ModBelly = Instance.new("TextButton")
+local TVHat = Instance.new("TextButton")
+local ElliotJRHat = Instance.new("TextButton")
+local Prev_2 = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
+local Exit = Instance.new("ImageButton")
+local Disconnect = Instance.new("Frame")
+local DisconnectButton = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local CosmeticMods = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local FunMods = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+local Fun = Instance.new("Frame")
+local Page1_2 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local FishTank = Instance.new("TextButton")
+local FlameGun = Instance.new("TextButton")
+local CCRoom = Instance.new("TextButton")
+local Mirror = Instance.new("TextButton")
+local CCVent = Instance.new("TextButton")
+local Next_3 = Instance.new("Frame")
+local TextButton_5 = Instance.new("TextButton")
+local MirrorON = Instance.new("TextButton")
+local FishTankON = Instance.new("TextButton")
+local Page2_2 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local Tophat_2 = Instance.new("TextButton")
+local MonkerHat_2 = Instance.new("TextButton")
+local ButterHat_2 = Instance.new("TextButton")
+local ChefHat_2 = Instance.new("TextButton")
+local JmanSet_2 = Instance.new("TextButton")
+local Prev_3 = Instance.new("Frame")
+local TextButton_6 = Instance.new("TextButton")
+local Next_4 = Instance.new("Frame")
+local TextButton_7 = Instance.new("TextButton")
+local Page3_2 = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local RedfishMask_2 = Instance.new("TextButton")
+local ModBelly_2 = Instance.new("TextButton")
+local TVHat_2 = Instance.new("TextButton")
+local ElliotJRHat_2 = Instance.new("TextButton")
+local Prev_4 = Instance.new("Frame")
+local TextButton_8 = Instance.new("TextButton")
+local Exit_2 = Instance.new("ImageButton")
+
+--Properties:
+
+BigScaryGUI.Name = "BigScaryGUI"
+BigScaryGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BigScaryGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+BigScaryGUI.ResetOnSpawn = false
+
+ModMenu.Name = "ModMenu"
+ModMenu.Parent = BigScaryGUI
+ModMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ModMenu.BackgroundTransparency = 1.000
+ModMenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ModMenu.BorderSizePixel = 0
+ModMenu.Position = UDim2.new(0.0405693948, 0, 0, 0)
+ModMenu.Size = UDim2.new(0.0895255134, 0, 0.104931794, 0)
+
+Cosmetics.Name = "Cosmetics"
+Cosmetics.Parent = ModMenu
+Cosmetics.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Cosmetics.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cosmetics.BorderSizePixel = 0
+Cosmetics.Position = UDim2.new(3.42476869, 0, 1.70624328, 0)
+Cosmetics.Size = UDim2.new(6.05000019, 0, 6.0999999, 0)
+Cosmetics.Visible = false
+
+Page1.Name = "Page1"
+Page1.Parent = Cosmetics
+Page1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1.BackgroundTransparency = 1.000
+Page1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page1.BorderSizePixel = 0
+Page1.Size = UDim2.new(1, 0, 1, 0)
+
+TextLabel.Parent = Page1
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.155371904, 0, 0, 0)
+TextLabel.Size = UDim2.new(0.689256191, 0, 0.144262299, 0)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Big Scary Menu"
+TextLabel.TextColor3 = Color3.fromRGB(251, 252, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+ShrekCCHat.Name = "ShrekCCHat"
+ShrekCCHat.Parent = Page1
+ShrekCCHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ShrekCCHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShrekCCHat.BorderSizePixel = 0
+ShrekCCHat.Position = UDim2.new(0.0329999998, 0, 0.307999998, 0)
+ShrekCCHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ShrekCCHat.Font = Enum.Font.FredokaOne
+ShrekCCHat.Text = "Equip Shrek CC Hat"
+ShrekCCHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShrekCCHat.TextScaled = true
+ShrekCCHat.TextSize = 14.000
+ShrekCCHat.TextWrapped = true
+
+OwnerMask.Name = "OwnerMask"
+OwnerMask.Parent = Page1
+OwnerMask.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+OwnerMask.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OwnerMask.BorderSizePixel = 0
+OwnerMask.Position = UDim2.new(0.0329999998, 0, 0.736999989, 0)
+OwnerMask.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+OwnerMask.Font = Enum.Font.FredokaOne
+OwnerMask.Text = "Equip Owner Mask"
+OwnerMask.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwnerMask.TextScaled = true
+OwnerMask.TextSize = 14.000
+OwnerMask.TextWrapped = true
+
+ModMask.Name = "ModMask"
+ModMask.Parent = Page1
+ModMask.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ModMask.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ModMask.BorderSizePixel = 0
+ModMask.Position = UDim2.new(0.0329999998, 0, 0.451000005, 0)
+ModMask.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ModMask.Font = Enum.Font.FredokaOne
+ModMask.Text = "Equip Mod Mask"
+ModMask.TextColor3 = Color3.fromRGB(255, 255, 255)
+ModMask.TextScaled = true
+ModMask.TextSize = 14.000
+ModMask.TextWrapped = true
+
+CCHat.Name = "CCHat"
+CCHat.Parent = Page1
+CCHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+CCHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CCHat.BorderSizePixel = 0
+CCHat.Position = UDim2.new(0.0330578499, 0, 0.164972231, 0)
+CCHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+CCHat.Font = Enum.Font.FredokaOne
+CCHat.Text = "Equip CC Hat"
+CCHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+CCHat.TextScaled = true
+CCHat.TextSize = 14.000
+CCHat.TextWrapped = true
+
+BetaMask.Name = "BetaMask"
+BetaMask.Parent = Page1
+BetaMask.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+BetaMask.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BetaMask.BorderSizePixel = 0
+BetaMask.Position = UDim2.new(0.0329999998, 0, 0.593999982, 0)
+BetaMask.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+BetaMask.Font = Enum.Font.FredokaOne
+BetaMask.Text = "Equip Beta Mask"
+BetaMask.TextColor3 = Color3.fromRGB(255, 255, 255)
+BetaMask.TextScaled = true
+BetaMask.TextSize = 14.000
+BetaMask.TextWrapped = true
+
+Next.Name = "Next"
+Next.Parent = Page1
+Next.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Next.BackgroundTransparency = 1.000
+Next.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Next.BorderSizePixel = 0
+Next.Position = UDim2.new(1.02479339, 0, 0, 0)
+Next.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton.Parent = Next
+TextButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0, 0, 3.15327142e-08, 0)
+TextButton.Size = UDim2.new(0, 100, 0, 483)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ">"
+TextButton.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Page2.Name = "Page2"
+Page2.Parent = Cosmetics
+Page2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2.BackgroundTransparency = 1.000
+Page2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page2.BorderSizePixel = 0
+Page2.Size = UDim2.new(1, 0, 1, 0)
+Page2.Visible = false
+
+TextLabel_2.Parent = Page2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.155371904, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0.689256191, 0, 0.144262299, 0)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "Big Scary Menu"
+TextLabel_2.TextColor3 = Color3.fromRGB(251, 252, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Tophat.Name = "Tophat"
+Tophat.Parent = Page2
+Tophat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tophat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tophat.BorderSizePixel = 0
+Tophat.Position = UDim2.new(0.0329999998, 0, 0.307999998, 0)
+Tophat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+Tophat.Font = Enum.Font.FredokaOne
+Tophat.Text = "Equip Tophat"
+Tophat.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tophat.TextScaled = true
+Tophat.TextSize = 14.000
+Tophat.TextWrapped = true
+
+MonkerHat.Name = "MonkerHat"
+MonkerHat.Parent = Page2
+MonkerHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+MonkerHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MonkerHat.BorderSizePixel = 0
+MonkerHat.Position = UDim2.new(0.0329999998, 0, 0.736999989, 0)
+MonkerHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+MonkerHat.Font = Enum.Font.FredokaOne
+MonkerHat.Text = "Equip Monker Hat"
+MonkerHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+MonkerHat.TextScaled = true
+MonkerHat.TextSize = 14.000
+MonkerHat.TextWrapped = true
+
+ButterHat.Name = "ButterHat"
+ButterHat.Parent = Page2
+ButterHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ButterHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButterHat.BorderSizePixel = 0
+ButterHat.Position = UDim2.new(0.0329999998, 0, 0.451000005, 0)
+ButterHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ButterHat.Font = Enum.Font.FredokaOne
+ButterHat.Text = "Equip Butter Hat"
+ButterHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButterHat.TextScaled = true
+ButterHat.TextSize = 14.000
+ButterHat.TextWrapped = true
+
+ChefHat.Name = "ChefHat"
+ChefHat.Parent = Page2
+ChefHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ChefHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ChefHat.BorderSizePixel = 0
+ChefHat.Position = UDim2.new(0.0330578499, 0, 0.164972231, 0)
+ChefHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ChefHat.Font = Enum.Font.FredokaOne
+ChefHat.Text = "Equip Chef Hat"
+ChefHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChefHat.TextScaled = true
+ChefHat.TextSize = 14.000
+ChefHat.TextWrapped = true
+
+JmanSet.Name = "JmanSet"
+JmanSet.Parent = Page2
+JmanSet.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+JmanSet.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JmanSet.BorderSizePixel = 0
+JmanSet.Position = UDim2.new(0.0329999998, 0, 0.593999982, 0)
+JmanSet.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+JmanSet.Font = Enum.Font.FredokaOne
+JmanSet.Text = "Equip Jman Set"
+JmanSet.TextColor3 = Color3.fromRGB(255, 255, 255)
+JmanSet.TextScaled = true
+JmanSet.TextSize = 14.000
+JmanSet.TextWrapped = true
+
+Prev.Name = "Prev"
+Prev.Parent = Page2
+Prev.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Prev.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Prev.BorderSizePixel = 0
+Prev.Position = UDim2.new(-0.189793393, 0, 0, 0)
+Prev.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton_2.Parent = Prev
+TextButton_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Size = UDim2.new(1, 0, 1, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "<"
+TextButton_2.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+Next_2.Name = "Next"
+Next_2.Parent = Page2
+Next_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Next_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Next_2.BorderSizePixel = 0
+Next_2.Position = UDim2.new(1.02479339, 0, 0, 0)
+Next_2.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton_3.Parent = Next_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Size = UDim2.new(1, 0, 1, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ">"
+TextButton_3.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+Page3.Name = "Page3"
+Page3.Parent = Cosmetics
+Page3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page3.BackgroundTransparency = 1.000
+Page3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page3.BorderSizePixel = 0
+Page3.Size = UDim2.new(1, 0, 1, 0)
+Page3.Visible = false
+
+TextLabel_3.Parent = Page3
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.155371904, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0.689256191, 0, 0.144262299, 0)
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "Big Scary Menu"
+TextLabel_3.TextColor3 = Color3.fromRGB(251, 252, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+RedfishMask.Name = "RedfishMask"
+RedfishMask.Parent = Page3
+RedfishMask.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+RedfishMask.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RedfishMask.BorderSizePixel = 0
+RedfishMask.Position = UDim2.new(0.0329999998, 0, 0.307999998, 0)
+RedfishMask.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+RedfishMask.Font = Enum.Font.FredokaOne
+RedfishMask.Text = "Equip Redfish Mask"
+RedfishMask.TextColor3 = Color3.fromRGB(255, 255, 255)
+RedfishMask.TextScaled = true
+RedfishMask.TextSize = 14.000
+RedfishMask.TextWrapped = true
+
+ModBelly.Name = "ModBelly"
+ModBelly.Parent = Page3
+ModBelly.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ModBelly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ModBelly.BorderSizePixel = 0
+ModBelly.Position = UDim2.new(0.0329999998, 0, 0.451000005, 0)
+ModBelly.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ModBelly.Font = Enum.Font.FredokaOne
+ModBelly.Text = "Equip Mod Belly"
+ModBelly.TextColor3 = Color3.fromRGB(255, 255, 255)
+ModBelly.TextScaled = true
+ModBelly.TextSize = 14.000
+ModBelly.TextWrapped = true
+
+TVHat.Name = "TVHat"
+TVHat.Parent = Page3
+TVHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TVHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TVHat.BorderSizePixel = 0
+TVHat.Position = UDim2.new(0.0330578499, 0, 0.164972231, 0)
+TVHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+TVHat.Font = Enum.Font.FredokaOne
+TVHat.Text = "Equip TV Hat"
+TVHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+TVHat.TextScaled = true
+TVHat.TextSize = 14.000
+TVHat.TextWrapped = true
+
+ElliotJRHat.Name = "ElliotJRHat"
+ElliotJRHat.Parent = Page3
+ElliotJRHat.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ElliotJRHat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ElliotJRHat.BorderSizePixel = 0
+ElliotJRHat.Position = UDim2.new(0.0329999998, 0, 0.593999982, 0)
+ElliotJRHat.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ElliotJRHat.Font = Enum.Font.FredokaOne
+ElliotJRHat.Text = "Equip ElliotJR Hat"
+ElliotJRHat.TextColor3 = Color3.fromRGB(255, 255, 255)
+ElliotJRHat.TextScaled = true
+ElliotJRHat.TextSize = 14.000
+ElliotJRHat.TextWrapped = true
+
+Prev_2.Name = "Prev"
+Prev_2.Parent = Page3
+Prev_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Prev_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Prev_2.BorderSizePixel = 0
+Prev_2.Position = UDim2.new(-0.189793393, 0, 0, 0)
+Prev_2.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton_4.Parent = Prev_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Size = UDim2.new(1, 0, 1, 0)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "<"
+TextButton_4.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+Exit.Name = "Exit"
+Exit.Parent = Cosmetics
+Exit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.917355299, 0, 1.01475406, 0)
+Exit.Size = UDim2.new(0.0826446265, 0, 0.0819672123, 0)
+Exit.Image = "rbxassetid://6264845452"
+
+Disconnect.Name = "Disconnect"
+Disconnect.Parent = ModMenu
+Disconnect.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Disconnect.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Disconnect.BorderSizePixel = 0
+Disconnect.Position = UDim2.new(3.42476869, 0, 0.755872965, 0)
+Disconnect.Size = UDim2.new(6.05000019, 0, 0.689999998, 0)
+Disconnect.Visible = false
+
+DisconnectButton.Name = "DisconnectButton"
+DisconnectButton.Parent = Disconnect
+DisconnectButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+DisconnectButton.BackgroundTransparency = 1.000
+DisconnectButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DisconnectButton.BorderSizePixel = 0
+DisconnectButton.Size = UDim2.new(1, 0, 1, 0)
+DisconnectButton.Font = Enum.Font.FredokaOne
+DisconnectButton.Text = "Disconnect"
+DisconnectButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DisconnectButton.TextScaled = true
+DisconnectButton.TextSize = 14.000
+DisconnectButton.TextWrapped = true
+
+Main.Name = "Main"
+Main.Parent = ModMenu
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(3.42476869, 0, 1.70624328, 0)
+Main.Size = UDim2.new(6.05000019, 0, 6.0999999, 0)
+Main.Visible = false
+
+CosmeticMods.Name = "CosmeticMods"
+CosmeticMods.Parent = Main
+CosmeticMods.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+CosmeticMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CosmeticMods.BorderSizePixel = 0
+CosmeticMods.Position = UDim2.new(0.0330578499, 0, 0.166611552, 0)
+CosmeticMods.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+CosmeticMods.Font = Enum.Font.FredokaOne
+CosmeticMods.Text = "Cosmetic Mods"
+CosmeticMods.TextColor3 = Color3.fromRGB(255, 255, 255)
+CosmeticMods.TextScaled = true
+CosmeticMods.TextSize = 14.000
+CosmeticMods.TextWrapped = true
+
+TextLabel_4.Parent = Main
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.155371904, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0.689256191, 0, 0.144262299, 0)
+TextLabel_4.Font = Enum.Font.Unknown
+TextLabel_4.Text = "Big Scary Menu"
+TextLabel_4.TextColor3 = Color3.fromRGB(251, 252, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+FunMods.Name = "FunMods"
+FunMods.Parent = Main
+FunMods.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+FunMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FunMods.BorderSizePixel = 0
+FunMods.Position = UDim2.new(0.0330578499, 0, 0.313335031, 0)
+FunMods.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+FunMods.Font = Enum.Font.FredokaOne
+FunMods.Text = "Fun Mods"
+FunMods.TextColor3 = Color3.fromRGB(255, 255, 255)
+FunMods.TextScaled = true
+FunMods.TextSize = 14.000
+FunMods.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = ModMenu
+Close.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(-0.460000008, 0, 4.2425499, 0)
+Close.Size = UDim2.new(0, 80, 0, 80)
+Close.Visible = false
+Close.Font = Enum.Font.FredokaOne
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 30.000
+Close.TextWrapped = true
+
+Open.Name = "Open"
+Open.Parent = ModMenu
+Open.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Open.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(-0.460000008, 0, 4.2425499, 0)
+Open.Size = UDim2.new(0, 80, 0, 80)
+Open.Font = Enum.Font.FredokaOne
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 30.000
+Open.TextWrapped = true
+
+Fun.Name = "Fun"
+Fun.Parent = ModMenu
+Fun.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fun.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fun.BorderSizePixel = 0
+Fun.Position = UDim2.new(3.42476869, 0, 1.70624328, 0)
+Fun.Size = UDim2.new(6.05000019, 0, 6.0999999, 0)
+Fun.Visible = false
+
+Page1_2.Name = "Page1"
+Page1_2.Parent = Fun
+Page1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1_2.BackgroundTransparency = 1.000
+Page1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page1_2.BorderSizePixel = 0
+Page1_2.Size = UDim2.new(1, 0, 1, 0)
+
+TextLabel_5.Parent = Page1_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.155371904, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0.689256191, 0, 0.144262299, 0)
+TextLabel_5.Font = Enum.Font.Unknown
+TextLabel_5.Text = "Big Scary Menu"
+TextLabel_5.TextColor3 = Color3.fromRGB(251, 252, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+FishTank.Name = "FishTank"
+FishTank.Parent = Page1_2
+FishTank.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+FishTank.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FishTank.BorderSizePixel = 0
+FishTank.Position = UDim2.new(0.0329999998, 0, 0.307999998, 0)
+FishTank.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+FishTank.Font = Enum.Font.FredokaOne
+FishTank.Text = "Toggle Fishtank Access"
+FishTank.TextColor3 = Color3.fromRGB(255, 255, 255)
+FishTank.TextScaled = true
+FishTank.TextSize = 14.000
+FishTank.TextWrapped = true
+
+FlameGun.Name = "FlameGun"
+FlameGun.Parent = Page1_2
+FlameGun.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+FlameGun.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlameGun.BorderSizePixel = 0
+FlameGun.Position = UDim2.new(0.0329999998, 0, 0.736999989, 0)
+FlameGun.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+FlameGun.Font = Enum.Font.FredokaOne
+FlameGun.Text = "Get Flame Gun"
+FlameGun.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlameGun.TextScaled = true
+FlameGun.TextSize = 14.000
+FlameGun.TextWrapped = true
+
+CCRoom.Name = "CCRoom"
+CCRoom.Parent = Page1_2
+CCRoom.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+CCRoom.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CCRoom.BorderSizePixel = 0
+CCRoom.Position = UDim2.new(0.0329999998, 0, 0.451000005, 0)
+CCRoom.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+CCRoom.Font = Enum.Font.FredokaOne
+CCRoom.Text = "Toggle CC Room Access"
+CCRoom.TextColor3 = Color3.fromRGB(255, 255, 255)
+CCRoom.TextScaled = true
+CCRoom.TextSize = 14.000
+CCRoom.TextWrapped = true
+
+Mirror.Name = "Mirror"
+Mirror.Parent = Page1_2
+Mirror.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Mirror.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Mirror.BorderSizePixel = 0
+Mirror.Position = UDim2.new(0.0330578499, 0, 0.164972231, 0)
+Mirror.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+Mirror.Font = Enum.Font.FredokaOne
+Mirror.Text = "Toggle Mirror Access"
+Mirror.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mirror.TextScaled = true
+Mirror.TextSize = 14.000
+Mirror.TextWrapped = true
+
+CCVent.Name = "CCVent"
+CCVent.Parent = Page1_2
+CCVent.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+CCVent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CCVent.BorderSizePixel = 0
+CCVent.Position = UDim2.new(0.0329999998, 0, 0.593999982, 0)
+CCVent.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+CCVent.Font = Enum.Font.FredokaOne
+CCVent.Text = "Toggle CC Vent Access"
+CCVent.TextColor3 = Color3.fromRGB(255, 255, 255)
+CCVent.TextScaled = true
+CCVent.TextSize = 14.000
+CCVent.TextWrapped = true
+
+Next_3.Name = "Next"
+Next_3.Parent = Page1_2
+Next_3.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Next_3.BackgroundTransparency = 1.000
+Next_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Next_3.BorderSizePixel = 0
+Next_3.Position = UDim2.new(1.02479339, 0, 0, 0)
+Next_3.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton_5.Parent = Next_3
+TextButton_5.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0, 0, 3.15327142e-08, 0)
+TextButton_5.Size = UDim2.new(0, 100, 0, 483)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = ">"
+TextButton_5.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+MirrorON.Name = "MirrorON"
+MirrorON.Parent = Page1_2
+MirrorON.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+MirrorON.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MirrorON.BorderSizePixel = 0
+MirrorON.Position = UDim2.new(0.0330578499, 0, 0.164972231, 0)
+MirrorON.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+MirrorON.Visible = false
+MirrorON.Font = Enum.Font.FredokaOne
+MirrorON.Text = "Toggle Mirror Access"
+MirrorON.TextColor3 = Color3.fromRGB(255, 255, 255)
+MirrorON.TextScaled = true
+MirrorON.TextSize = 14.000
+MirrorON.TextWrapped = true
+
+FishTankON.Name = "FishTankON"
+FishTankON.Parent = Page1_2
+FishTankON.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+FishTankON.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FishTankON.BorderSizePixel = 0
+FishTankON.Position = UDim2.new(0.0329999998, 0, 0.307999998, 0)
+FishTankON.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+FishTankON.Visible = false
+FishTankON.Font = Enum.Font.FredokaOne
+FishTankON.Text = "Toggle Fishtank Access"
+FishTankON.TextColor3 = Color3.fromRGB(255, 255, 255)
+FishTankON.TextScaled = true
+FishTankON.TextSize = 14.000
+FishTankON.TextWrapped = true
+
+Page2_2.Name = "Page2"
+Page2_2.Parent = Fun
+Page2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2_2.BackgroundTransparency = 1.000
+Page2_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page2_2.BorderSizePixel = 0
+Page2_2.Size = UDim2.new(1, 0, 1, 0)
+Page2_2.Visible = false
+
+TextLabel_6.Parent = Page2_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.155371904, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0.689256191, 0, 0.144262299, 0)
+TextLabel_6.Font = Enum.Font.Unknown
+TextLabel_6.Text = "Big Scary Menu"
+TextLabel_6.TextColor3 = Color3.fromRGB(251, 252, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+Tophat_2.Name = "Tophat"
+Tophat_2.Parent = Page2_2
+Tophat_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tophat_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tophat_2.BorderSizePixel = 0
+Tophat_2.Position = UDim2.new(0.0329999998, 0, 0.307999998, 0)
+Tophat_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+Tophat_2.Font = Enum.Font.FredokaOne
+Tophat_2.Text = "Equip Tophat"
+Tophat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tophat_2.TextScaled = true
+Tophat_2.TextSize = 14.000
+Tophat_2.TextWrapped = true
+
+MonkerHat_2.Name = "MonkerHat"
+MonkerHat_2.Parent = Page2_2
+MonkerHat_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+MonkerHat_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MonkerHat_2.BorderSizePixel = 0
+MonkerHat_2.Position = UDim2.new(0.0329999998, 0, 0.736999989, 0)
+MonkerHat_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+MonkerHat_2.Font = Enum.Font.FredokaOne
+MonkerHat_2.Text = "Equip Monker Hat"
+MonkerHat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+MonkerHat_2.TextScaled = true
+MonkerHat_2.TextSize = 14.000
+MonkerHat_2.TextWrapped = true
+
+ButterHat_2.Name = "ButterHat"
+ButterHat_2.Parent = Page2_2
+ButterHat_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ButterHat_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButterHat_2.BorderSizePixel = 0
+ButterHat_2.Position = UDim2.new(0.0329999998, 0, 0.451000005, 0)
+ButterHat_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ButterHat_2.Font = Enum.Font.FredokaOne
+ButterHat_2.Text = "Equip Butter Hat"
+ButterHat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButterHat_2.TextScaled = true
+ButterHat_2.TextSize = 14.000
+ButterHat_2.TextWrapped = true
+
+ChefHat_2.Name = "ChefHat"
+ChefHat_2.Parent = Page2_2
+ChefHat_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ChefHat_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ChefHat_2.BorderSizePixel = 0
+ChefHat_2.Position = UDim2.new(0.0330578499, 0, 0.164972231, 0)
+ChefHat_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ChefHat_2.Font = Enum.Font.FredokaOne
+ChefHat_2.Text = "Equip Chef Hat"
+ChefHat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChefHat_2.TextScaled = true
+ChefHat_2.TextSize = 14.000
+ChefHat_2.TextWrapped = true
+
+JmanSet_2.Name = "JmanSet"
+JmanSet_2.Parent = Page2_2
+JmanSet_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+JmanSet_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JmanSet_2.BorderSizePixel = 0
+JmanSet_2.Position = UDim2.new(0.0329999998, 0, 0.593999982, 0)
+JmanSet_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+JmanSet_2.Font = Enum.Font.FredokaOne
+JmanSet_2.Text = "Equip Jman Set"
+JmanSet_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+JmanSet_2.TextScaled = true
+JmanSet_2.TextSize = 14.000
+JmanSet_2.TextWrapped = true
+
+Prev_3.Name = "Prev"
+Prev_3.Parent = Page2_2
+Prev_3.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Prev_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Prev_3.BorderSizePixel = 0
+Prev_3.Position = UDim2.new(-0.189793393, 0, 0, 0)
+Prev_3.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton_6.Parent = Prev_3
+TextButton_6.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Size = UDim2.new(1, 0, 1, 0)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "<"
+TextButton_6.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+Next_4.Name = "Next"
+Next_4.Parent = Page2_2
+Next_4.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Next_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Next_4.BorderSizePixel = 0
+Next_4.Position = UDim2.new(1.02479339, 0, 0, 0)
+Next_4.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton_7.Parent = Next_4
+TextButton_7.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Size = UDim2.new(1, 0, 1, 0)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = ">"
+TextButton_7.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+Page3_2.Name = "Page3"
+Page3_2.Parent = Fun
+Page3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page3_2.BackgroundTransparency = 1.000
+Page3_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page3_2.BorderSizePixel = 0
+Page3_2.Size = UDim2.new(1, 0, 1, 0)
+Page3_2.Visible = false
+
+TextLabel_7.Parent = Page3_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.155371904, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0.689256191, 0, 0.144262299, 0)
+TextLabel_7.Font = Enum.Font.Unknown
+TextLabel_7.Text = "Big Scary Menu"
+TextLabel_7.TextColor3 = Color3.fromRGB(251, 252, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+RedfishMask_2.Name = "RedfishMask"
+RedfishMask_2.Parent = Page3_2
+RedfishMask_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+RedfishMask_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RedfishMask_2.BorderSizePixel = 0
+RedfishMask_2.Position = UDim2.new(0.0329999998, 0, 0.307999998, 0)
+RedfishMask_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+RedfishMask_2.Font = Enum.Font.FredokaOne
+RedfishMask_2.Text = "Equip Redfish Mask"
+RedfishMask_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+RedfishMask_2.TextScaled = true
+RedfishMask_2.TextSize = 14.000
+RedfishMask_2.TextWrapped = true
+
+ModBelly_2.Name = "ModBelly"
+ModBelly_2.Parent = Page3_2
+ModBelly_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ModBelly_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ModBelly_2.BorderSizePixel = 0
+ModBelly_2.Position = UDim2.new(0.0329999998, 0, 0.451000005, 0)
+ModBelly_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ModBelly_2.Font = Enum.Font.FredokaOne
+ModBelly_2.Text = "Equip Mod Belly"
+ModBelly_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ModBelly_2.TextScaled = true
+ModBelly_2.TextSize = 14.000
+ModBelly_2.TextWrapped = true
+
+TVHat_2.Name = "TVHat"
+TVHat_2.Parent = Page3_2
+TVHat_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TVHat_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TVHat_2.BorderSizePixel = 0
+TVHat_2.Position = UDim2.new(0.0330578499, 0, 0.164972231, 0)
+TVHat_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+TVHat_2.Font = Enum.Font.FredokaOne
+TVHat_2.Text = "Equip TV Hat"
+TVHat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TVHat_2.TextScaled = true
+TVHat_2.TextSize = 14.000
+TVHat_2.TextWrapped = true
+
+ElliotJRHat_2.Name = "ElliotJRHat"
+ElliotJRHat_2.Parent = Page3_2
+ElliotJRHat_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ElliotJRHat_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ElliotJRHat_2.BorderSizePixel = 0
+ElliotJRHat_2.Position = UDim2.new(0.0329999998, 0, 0.593999982, 0)
+ElliotJRHat_2.Size = UDim2.new(0.933884323, 0, 0.122950822, 0)
+ElliotJRHat_2.Font = Enum.Font.FredokaOne
+ElliotJRHat_2.Text = "Equip ElliotJR Hat"
+ElliotJRHat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ElliotJRHat_2.TextScaled = true
+ElliotJRHat_2.TextSize = 14.000
+ElliotJRHat_2.TextWrapped = true
+
+Prev_4.Name = "Prev"
+Prev_4.Parent = Page3_2
+Prev_4.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Prev_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Prev_4.BorderSizePixel = 0
+Prev_4.Position = UDim2.new(-0.189793393, 0, 0, 0)
+Prev_4.Size = UDim2.new(0.165289253, 0, 1, 0)
+
+TextButton_8.Parent = Prev_4
+TextButton_8.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Size = UDim2.new(1, 0, 1, 0)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "<"
+TextButton_8.TextColor3 = Color3.fromRGB(252, 255, 255)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+Exit_2.Name = "Exit"
+Exit_2.Parent = Fun
+Exit_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit_2.BorderSizePixel = 0
+Exit_2.Position = UDim2.new(0.917355299, 0, 1.01475406, 0)
+Exit_2.Size = UDim2.new(0.0826446265, 0, 0.0819672123, 0)
+Exit_2.Image = "rbxassetid://6264845452"
+
+-- Scripts:
+
+local function UYDEO_fake_script() -- ShrekCCHat.LocalScript 
+	local script = Instance.new('LocalScript', ShrekCCHat)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-254, 1337, 444)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(UYDEO_fake_script)()
+local function QMWFRO_fake_script() -- OwnerMask.LocalScript 
+	local script = Instance.new('LocalScript', OwnerMask)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-560, 1462, 463)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(QMWFRO_fake_script)()
+local function CKRCZ_fake_script() -- ModMask.LocalScript 
+	local script = Instance.new('LocalScript', ModMask)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-377, 1369, 400) 
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(CKRCZ_fake_script)()
+local function JTRFN_fake_script() -- CCHat.LocalScript 
+	local script = Instance.new('LocalScript', CCHat)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-254, 1337, 447)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(JTRFN_fake_script)()
+local function DFLBUG_fake_script() -- BetaMask.LocalScript 
+	local script = Instance.new('LocalScript', BetaMask)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-374, 1369, 399)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(DFLBUG_fake_script)()
+local function KAJEJXE_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = true
+	end)
+end
+coroutine.wrap(KAJEJXE_fake_script)()
+local function XPWM_fake_script() -- Tophat.LocalScript 
+	local script = Instance.new('LocalScript', Tophat)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-371, 1369, 399)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(XPWM_fake_script)()
+local function GBFYV_fake_script() -- MonkerHat.LocalScript 
+	local script = Instance.new('LocalScript', MonkerHat)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-367, 1369, 404)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(GBFYV_fake_script)()
+local function CINBID_fake_script() -- ButterHat.LocalScript 
+	local script = Instance.new('LocalScript', ButterHat)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-380, 1369, 400)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(CINBID_fake_script)()
+local function EETCUKH_fake_script() -- ChefHat.LocalScript 
+	local script = Instance.new('LocalScript', ChefHat)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-368, 1369, 399)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(EETCUKH_fake_script)()
+local function GYOSLGS_fake_script() -- JmanSet.LocalScript 
+	local script = Instance.new('LocalScript', JmanSet)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-366, 1369, 399)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(GYOSLGS_fake_script)()
+local function AEGONL_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = true	
+	end)
+end
+coroutine.wrap(AEGONL_fake_script)()
+local function SQXZSWC_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = true
+	end)
+end
+coroutine.wrap(SQXZSWC_fake_script)()
+local function SZPD_fake_script() -- RedfishMask.LocalScript 
+	local script = Instance.new('LocalScript', RedfishMask)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-472, 1480, 374)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(SZPD_fake_script)()
+local function ORRFL_fake_script() -- ModBelly.LocalScript 
+	local script = Instance.new('LocalScript', ModBelly)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-494, 1480, 374)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(ORRFL_fake_script)()
+local function EIAG_fake_script() -- TVHat.LocalScript 
+	local script = Instance.new('LocalScript', TVHat)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-367, 1369, 400)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(EIAG_fake_script)()
+local function OAKV_fake_script() -- ElliotJRHat.LocalScript 
+	local script = Instance.new('LocalScript', ElliotJRHat)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-481, 1480, 373)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(OAKV_fake_script)()
+local function HNNT_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page2.Visible = true
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false	
+	end)
+end
+coroutine.wrap(HNNT_fake_script)()
+local function GDFO_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Page1.Visible = true
+		script.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Cosmetics.Visible = false
+		script.Parent.Parent.Parent.Main.Visible = true
+	end)
+end
+coroutine.wrap(GDFO_fake_script)()
+local function UFMMZIP_fake_script() -- DisconnectButton.LocalScript 
+	local script = Instance.new('LocalScript', DisconnectButton)
+
+	player = game.Players.LocalPlayer
+	
+	script.Parent.Activated:Connect(function()
+		player:Kick("Disconnected")
+	end)
+end
+coroutine.wrap(UFMMZIP_fake_script)()
+local function GYJQ_fake_script() -- CosmeticMods.LocalScript 
+	local script = Instance.new('LocalScript', CosmeticMods)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Cosmetics.Visible = true
+	end)
+end
+coroutine.wrap(GYJQ_fake_script)()
+local function NTFKH_fake_script() -- FunMods.LocalScript 
+	local script = Instance.new('LocalScript', FunMods)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Fun.Visible = true
+	end)
+end
+coroutine.wrap(NTFKH_fake_script)()
+local function SZOX_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Open.Visible = true
+		script.Parent.Visible = false
+		script.Parent.Parent.Main.Visible = false
+		script.Parent.Parent.Disconnect.Visible = false
+		script.Parent.Parent.Cosmetics.Visible = false
+		script.Parent.Parent.Fun.Visible = false
+	end)
+end
+coroutine.wrap(SZOX_fake_script)()
+local function ADNCB_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Close.Visible = true
+		script.Parent.Visible = false
+		script.Parent.Parent.Main.Visible = true
+		script.Parent.Parent.Disconnect.Visible = true
+		script.Parent.Parent.Cosmetics.Visible = false
+		script.Parent.Parent.Fun.Visible = false
+	end)
+end
+coroutine.wrap(ADNCB_fake_script)()
+local function PYWKCJ_fake_script() -- FishTank.LocalScript 
+	local script = Instance.new('LocalScript', FishTank)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Visible = false
+		script.Parent.Parent.FishTankON.Visible = true
+	end)
+end
+coroutine.wrap(PYWKCJ_fake_script)()
+local function CCZTYRU_fake_script() -- FlameGun.LocalScript 
+	local script = Instance.new('LocalScript', FlameGun)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-560, 1462, 463)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(CCZTYRU_fake_script)()
+local function PBPCSO_fake_script() -- CCRoom.LocalScript 
+	local script = Instance.new('LocalScript', CCRoom)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-377, 1369, 400) 
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(PBPCSO_fake_script)()
+local function NWKJMY_fake_script() -- Mirror.LocalScript 
+	local script = Instance.new('LocalScript', Mirror)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Visible = false
+		script.Parent.Parent.MirrorON.Visible = true
+	end)
+end
+coroutine.wrap(NWKJMY_fake_script)()
+local function WOFQQCP_fake_script() -- CCVent.LocalScript 
+	local script = Instance.new('LocalScript', CCVent)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-374, 1369, 399)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(WOFQQCP_fake_script)()
+local function GTFDW_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page1.Visible = false
+		script.Parent.Parent.Parent.Parent.Page2.Visible = true
+	end)
+end
+coroutine.wrap(GTFDW_fake_script)()
+local function CUOEHFE_fake_script() -- MirrorON.LocalScript 
+	local script = Instance.new('LocalScript', MirrorON)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Visible = false
+		script.Parent.Parent.Mirror.Visible = true
+	end)
+end
+coroutine.wrap(CUOEHFE_fake_script)()
+local function OBSHIII_fake_script() -- MirrorON.LocalScript 
+	local script = Instance.new('LocalScript', MirrorON)
+
+	while true do
+		if script.Parent.Visible == true then
+			workspace.Vent.CanCollide = false
+		else
+			workspace.Vent.CanCollide = true
+		end
+		wait(0.3)
+	end
+end
+coroutine.wrap(OBSHIII_fake_script)()
+local function YMZFTJ_fake_script() -- FishTankON.LocalScript 
+	local script = Instance.new('LocalScript', FishTankON)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-254, 1337, 444)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(YMZFTJ_fake_script)()
+local function QQKLH_fake_script() -- FishTankON.LocalScript 
+	local script = Instance.new('LocalScript', FishTankON)
+
+	while true do
+		if script.Parent.Visible == true then
+			workspace["Zero presents 1"].CanCollide = false
+		else
+			workspace["Zero presents 1"].CanCollide = true
+		end
+		wait(0.3)
+	end
+	
+end
+coroutine.wrap(QQKLH_fake_script)()
+local function MQLTEOX_fake_script() -- Tophat_2.LocalScript 
+	local script = Instance.new('LocalScript', Tophat_2)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-371, 1369, 399)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(MQLTEOX_fake_script)()
+local function LUKT_fake_script() -- MonkerHat_2.LocalScript 
+	local script = Instance.new('LocalScript', MonkerHat_2)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-367, 1369, 404)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(LUKT_fake_script)()
+local function ENQTP_fake_script() -- ButterHat_2.LocalScript 
+	local script = Instance.new('LocalScript', ButterHat_2)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-380, 1369, 400)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(ENQTP_fake_script)()
+local function QTPST_fake_script() -- ChefHat_2.LocalScript 
+	local script = Instance.new('LocalScript', ChefHat_2)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-368, 1369, 399)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(QTPST_fake_script)()
+local function QOUND_fake_script() -- JmanSet_2.LocalScript 
+	local script = Instance.new('LocalScript', JmanSet_2)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-366, 1369, 399)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(QOUND_fake_script)()
+local function YLNHOM_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Page1.Visible = true	
+	end)
+end
+coroutine.wrap(YLNHOM_fake_script)()
+local function DWLV_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Parent.Parent.Page3.Visible = true
+	end)
+end
+coroutine.wrap(DWLV_fake_script)()
+local function HZMDVL_fake_script() -- RedfishMask_2.LocalScript 
+	local script = Instance.new('LocalScript', RedfishMask_2)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-472, 1480, 374)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(HZMDVL_fake_script)()
+local function ASIDY_fake_script() -- ModBelly_2.LocalScript 
+	local script = Instance.new('LocalScript', ModBelly_2)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-494, 1480, 374)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(ASIDY_fake_script)()
+local function XKYUZHS_fake_script() -- TVHat_2.LocalScript 
+	local script = Instance.new('LocalScript', TVHat_2)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-367, 1369, 400)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(XKYUZHS_fake_script)()
+local function IXJFQU_fake_script() -- ElliotJRHat_2.LocalScript 
+	local script = Instance.new('LocalScript', ElliotJRHat_2)
+
+	local player = game.Players.LocalPlayer
+	
+	local function stopAnimations(humanoid, stop)
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			if stop then
+				track:Stop()
+			else
+				track:Play()
+			end
+		end
+	end
+	
+	local function disableCollisionTemporarily(character)
+		local originalStates = {}
+	
+		for _, descendant in pairs(character:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				originalStates[descendant] = descendant.CanCollide
+				descendant.CanCollide = false
+			end
+		end
+	
+		return originalStates
+	end
+	
+	local function restoreCollisions(states)
+		for part, state in pairs(states) do
+			if part and part.Parent then
+				part.CanCollide = state
+			end
+		end
+	end
+	
+	local function setupButton(scriptParent, character)
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		scriptParent.Activated:Connect(function()
+			local originalCFrame = hrp.CFrame
+			local originalCollisions = disableCollisionTemporarily(character)
+	
+			humanoid.PlatformStand = true
+			stopAnimations(humanoid, true)
+	
+			for i = 1, 100 do
+				hrp.CFrame = CFrame.new(-481, 1480, 373)
+				task.wait(0.01)
+			end
+	
+			restoreCollisions(originalCollisions)
+			humanoid.PlatformStand = false
+			stopAnimations(humanoid, false)
+	
+			hrp.CFrame = originalCFrame
+		end)
+	end
+	
+	if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		setupButton(script.Parent, player.Character)
+	else
+		player.CharacterAdded:Connect(function(char)
+			char:WaitForChild("HumanoidRootPart")
+			setupButton(script.Parent, char)
+		end)
+	end
+	
+end
+coroutine.wrap(IXJFQU_fake_script)()
+local function IUDILRN_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.Parent.Page2.Visible = true
+		script.Parent.Parent.Parent.Parent.Page3.Visible = false	
+	end)
+end
+coroutine.wrap(IUDILRN_fake_script)()
+local function ETMVWZ_fake_script() -- Exit_2.LocalScript 
+	local script = Instance.new('LocalScript', Exit_2)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Page1.Visible = true
+		script.Parent.Parent.Page2.Visible = false
+		script.Parent.Parent.Page3.Visible = false
+		script.Parent.Parent.Parent.Cosmetics.Visible = false
+		script.Parent.Parent.Parent.Main.Visible = true
+	end)
+end
+coroutine.wrap(ETMVWZ_fake_script)()
