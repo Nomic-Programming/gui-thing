@@ -75,7 +75,6 @@ Page1.BackgroundTransparency = 1.000
 Page1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Page1.BorderSizePixel = 0
 Page1.Size = UDim2.new(1, 0, 1, 0)
-Page1.Visible = false
 
 TextLabel.Parent = Page1
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -512,7 +511,7 @@ Open.TextWrapped = true
 
 -- Scripts:
 
-local function EFVIPW_fake_script() -- ShrekCCHat.LocalScript 
+local function WUMJLLQ_fake_script() -- ShrekCCHat.LocalScript 
 	local script = Instance.new('LocalScript', ShrekCCHat)
 
 	local player = game.Players.LocalPlayer
@@ -582,8 +581,8 @@ local function EFVIPW_fake_script() -- ShrekCCHat.LocalScript
 	end
 	
 end
-coroutine.wrap(EFVIPW_fake_script)()
-local function SAVTFP_fake_script() -- OwnerMask.LocalScript 
+coroutine.wrap(WUMJLLQ_fake_script)()
+local function IBQN_fake_script() -- OwnerMask.LocalScript 
 	local script = Instance.new('LocalScript', OwnerMask)
 
 	local player = game.Players.LocalPlayer
@@ -653,8 +652,8 @@ local function SAVTFP_fake_script() -- OwnerMask.LocalScript
 	end
 	
 end
-coroutine.wrap(SAVTFP_fake_script)()
-local function UPZAX_fake_script() -- ModMask.LocalScript 
+coroutine.wrap(IBQN_fake_script)()
+local function UIIL_fake_script() -- ModMask.LocalScript 
 	local script = Instance.new('LocalScript', ModMask)
 
 	local player = game.Players.LocalPlayer
@@ -724,8 +723,8 @@ local function UPZAX_fake_script() -- ModMask.LocalScript
 	end
 	
 end
-coroutine.wrap(UPZAX_fake_script)()
-local function JHQL_fake_script() -- CCHat.LocalScript 
+coroutine.wrap(UIIL_fake_script)()
+local function RDWTCX_fake_script() -- CCHat.LocalScript 
 	local script = Instance.new('LocalScript', CCHat)
 
 	local player = game.Players.LocalPlayer
@@ -795,8 +794,8 @@ local function JHQL_fake_script() -- CCHat.LocalScript
 	end
 	
 end
-coroutine.wrap(JHQL_fake_script)()
-local function KNRVJ_fake_script() -- BetaMask.LocalScript 
+coroutine.wrap(RDWTCX_fake_script)()
+local function ZPNAOBX_fake_script() -- BetaMask.LocalScript 
 	local script = Instance.new('LocalScript', BetaMask)
 
 	local player = game.Players.LocalPlayer
@@ -866,8 +865,8 @@ local function KNRVJ_fake_script() -- BetaMask.LocalScript
 	end
 	
 end
-coroutine.wrap(KNRVJ_fake_script)()
-local function WYUHJUN_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(ZPNAOBX_fake_script)()
+local function EYSCK_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.Activated:Connect(function()
@@ -875,8 +874,8 @@ local function WYUHJUN_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.Parent.Parent.Page2.Visible = true
 	end)
 end
-coroutine.wrap(WYUHJUN_fake_script)()
-local function GIEXYQ_fake_script() -- Tophat.LocalScript 
+coroutine.wrap(EYSCK_fake_script)()
+local function SDEHWN_fake_script() -- Tophat.LocalScript 
 	local script = Instance.new('LocalScript', Tophat)
 
 	local player = game.Players.LocalPlayer
@@ -946,8 +945,8 @@ local function GIEXYQ_fake_script() -- Tophat.LocalScript
 	end
 	
 end
-coroutine.wrap(GIEXYQ_fake_script)()
-local function JORWY_fake_script() -- MonkerHat.LocalScript 
+coroutine.wrap(SDEHWN_fake_script)()
+local function LWXULRF_fake_script() -- MonkerHat.LocalScript 
 	local script = Instance.new('LocalScript', MonkerHat)
 
 	local player = game.Players.LocalPlayer
@@ -1017,8 +1016,8 @@ local function JORWY_fake_script() -- MonkerHat.LocalScript
 	end
 	
 end
-coroutine.wrap(JORWY_fake_script)()
-local function UTRULH_fake_script() -- ButterHat.LocalScript 
+coroutine.wrap(LWXULRF_fake_script)()
+local function AYFEJZ_fake_script() -- ButterHat.LocalScript 
 	local script = Instance.new('LocalScript', ButterHat)
 
 	local player = game.Players.LocalPlayer
@@ -1088,8 +1087,8 @@ local function UTRULH_fake_script() -- ButterHat.LocalScript
 	end
 	
 end
-coroutine.wrap(UTRULH_fake_script)()
-local function AOQAN_fake_script() -- ChefHat.LocalScript 
+coroutine.wrap(AYFEJZ_fake_script)()
+local function EPTH_fake_script() -- ChefHat.LocalScript 
 	local script = Instance.new('LocalScript', ChefHat)
 
 	local player = game.Players.LocalPlayer
@@ -1159,8 +1158,8 @@ local function AOQAN_fake_script() -- ChefHat.LocalScript
 	end
 	
 end
-coroutine.wrap(AOQAN_fake_script)()
-local function VLOIY_fake_script() -- JmanSet.LocalScript 
+coroutine.wrap(EPTH_fake_script)()
+local function XAPQAJ_fake_script() -- JmanSet.LocalScript 
 	local script = Instance.new('LocalScript', JmanSet)
 
 	local player = game.Players.LocalPlayer
@@ -1230,8 +1229,8 @@ local function VLOIY_fake_script() -- JmanSet.LocalScript
 	end
 	
 end
-coroutine.wrap(VLOIY_fake_script)()
-local function GZIA_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(XAPQAJ_fake_script)()
+local function PQMCVG_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.Activated:Connect(function()
@@ -1239,8 +1238,8 @@ local function GZIA_fake_script() -- TextButton_2.LocalScript
 		script.Parent.Parent.Parent.Parent.Page1.Visible = true	
 	end)
 end
-coroutine.wrap(GZIA_fake_script)()
-local function UAWDBD_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(PQMCVG_fake_script)()
+local function PENGCU_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.Activated:Connect(function()
@@ -1248,8 +1247,8 @@ local function UAWDBD_fake_script() -- TextButton_3.LocalScript
 		script.Parent.Parent.Parent.Parent.Page3.Visible = true
 	end)
 end
-coroutine.wrap(UAWDBD_fake_script)()
-local function BDHN_fake_script() -- RedfishMask.LocalScript 
+coroutine.wrap(PENGCU_fake_script)()
+local function HWJKYY_fake_script() -- RedfishMask.LocalScript 
 	local script = Instance.new('LocalScript', RedfishMask)
 
 	local player = game.Players.LocalPlayer
@@ -1319,8 +1318,8 @@ local function BDHN_fake_script() -- RedfishMask.LocalScript
 	end
 	
 end
-coroutine.wrap(BDHN_fake_script)()
-local function APOOJRC_fake_script() -- ModBelly.LocalScript 
+coroutine.wrap(HWJKYY_fake_script)()
+local function ZNYTB_fake_script() -- ModBelly.LocalScript 
 	local script = Instance.new('LocalScript', ModBelly)
 
 	local player = game.Players.LocalPlayer
@@ -1390,8 +1389,8 @@ local function APOOJRC_fake_script() -- ModBelly.LocalScript
 	end
 	
 end
-coroutine.wrap(APOOJRC_fake_script)()
-local function EGGUA_fake_script() -- TVHat.LocalScript 
+coroutine.wrap(ZNYTB_fake_script)()
+local function YLNBKOM_fake_script() -- TVHat.LocalScript 
 	local script = Instance.new('LocalScript', TVHat)
 
 	local player = game.Players.LocalPlayer
@@ -1461,8 +1460,8 @@ local function EGGUA_fake_script() -- TVHat.LocalScript
 	end
 	
 end
-coroutine.wrap(EGGUA_fake_script)()
-local function GWOZOUG_fake_script() -- ElliotJRHat.LocalScript 
+coroutine.wrap(YLNBKOM_fake_script)()
+local function YJJP_fake_script() -- ElliotJRHat.LocalScript 
 	local script = Instance.new('LocalScript', ElliotJRHat)
 
 	local player = game.Players.LocalPlayer
@@ -1532,8 +1531,8 @@ local function GWOZOUG_fake_script() -- ElliotJRHat.LocalScript
 	end
 	
 end
-coroutine.wrap(GWOZOUG_fake_script)()
-local function CYZMDU_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(YJJP_fake_script)()
+local function TBPZEQ_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.Activated:Connect(function()
@@ -1541,8 +1540,8 @@ local function CYZMDU_fake_script() -- TextButton_4.LocalScript
 		script.Parent.Parent.Parent.Parent.Page3.Visible = false	
 	end)
 end
-coroutine.wrap(CYZMDU_fake_script)()
-local function HFFD_fake_script() -- Exit.LocalScript 
+coroutine.wrap(TBPZEQ_fake_script)()
+local function ESWU_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	script.Parent.Activated:Connect(function()
@@ -1553,8 +1552,8 @@ local function HFFD_fake_script() -- Exit.LocalScript
 		script.Parent.Parent.Parent.Main.Visible = true
 	end)
 end
-coroutine.wrap(HFFD_fake_script)()
-local function WELBAKD_fake_script() -- DisconnectButton.LocalScript 
+coroutine.wrap(ESWU_fake_script)()
+local function QQDI_fake_script() -- DisconnectButton.LocalScript 
 	local script = Instance.new('LocalScript', DisconnectButton)
 
 	player = game.Players.LocalPlayer
@@ -1563,8 +1562,8 @@ local function WELBAKD_fake_script() -- DisconnectButton.LocalScript
 		player:Kick("Disconnected")
 	end)
 end
-coroutine.wrap(WELBAKD_fake_script)()
-local function RJSH_fake_script() -- CosmeticMods.LocalScript 
+coroutine.wrap(QQDI_fake_script)()
+local function ZURHYJR_fake_script() -- CosmeticMods.LocalScript 
 	local script = Instance.new('LocalScript', CosmeticMods)
 
 	script.Parent.Activated:Connect(function()
@@ -1572,8 +1571,8 @@ local function RJSH_fake_script() -- CosmeticMods.LocalScript
 		script.Parent.Parent.Parent.Cosmetics.Visible = true
 	end)
 end
-coroutine.wrap(RJSH_fake_script)()
-local function MTRBY_fake_script() -- Close.LocalScript 
+coroutine.wrap(ZURHYJR_fake_script)()
+local function KRPOTIP_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.Activated:Connect(function()
@@ -1584,8 +1583,8 @@ local function MTRBY_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Cosmetics.Visible = false
 	end)
 end
-coroutine.wrap(MTRBY_fake_script)()
-local function KLVOZH_fake_script() -- Open.LocalScript 
+coroutine.wrap(KRPOTIP_fake_script)()
+local function UDDJZSK_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.Activated:Connect(function()
@@ -1596,4 +1595,4 @@ local function KLVOZH_fake_script() -- Open.LocalScript
 		script.Parent.Parent.Cosmetics.Visible = false
 	end)
 end
-coroutine.wrap(KLVOZH_fake_script)()
+coroutine.wrap(UDDJZSK_fake_script)()
