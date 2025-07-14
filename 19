@@ -557,7 +557,7 @@ local function VMRSLLQ_fake_script() -- BetaMask.LocalScript
 			humanoid.PlatformStand = true
 			stopAnimations(humanoid, true)
 	
-			for i = 2, 100 do
+			for i = 2, 50 do
 				hrp.CFrame = CFrame.new(-374, 1369, 399) -- teleport to fixed position
 				task.wait(0.01)
 			end
